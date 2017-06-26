@@ -1,4 +1,4 @@
-FROM debian:jessie
+FROM pipill/armhf-debian:jessie
 
 RUN apt-get update && apt-get install -y libssl1.0.0 libpcre3 --no-install-recommends && rm -rf /var/lib/apt/lists/*
 

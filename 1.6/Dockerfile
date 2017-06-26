@@ -1,4 +1,4 @@
-FROM debian:jessie-backports
+FROM pipill/armhf-debian:jessie-backports
 
 RUN apt-get update \
 	&& apt-get install -y --no-install-recommends \
